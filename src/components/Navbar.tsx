@@ -44,7 +44,7 @@ export default function Navbar() {
           <a href="#portfolio" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
             Portfolio
           </a>
-          <a href="#tentang" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
+          <a href="/tentang" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
             Tentang
           </a>
           <a

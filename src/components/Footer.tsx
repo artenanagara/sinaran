@@ -6,9 +6,14 @@ export default function Footer() {
           sinaran<span className="text-[#1A6BFF]">.</span>
         </div>
         <div className="flex gap-7">
-          {['Layanan', 'Portfolio', 'Kontak', 'Instagram'].map((item) => (
-            <a key={item} href="#" className="text-[12px] font-medium text-gray-400 hover:text-gray-700 transition-colors">
-              {item}
+          {[
+            { label: 'Layanan', href: '/#layanan' },
+            { label: 'Portfolio', href: '/#portfolio' },
+            { label: 'Tentang', href: '/tentang' },
+            { label: 'Instagram', href: 'https://instagram.com' },
+          ].map((item) => (
+            <a key={item.label} href={item.href} className="text-[12px] font-medium text-gray-400 hover:text-gray-700 transition-colors">
+              {item.label}
             </a>
           ))}
         </div>
