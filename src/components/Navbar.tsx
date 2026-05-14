@@ -34,14 +34,14 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="font-bold text-[17px] tracking-tight text-gray-900">
+        <a href="/" className="font-bold text-[17px] tracking-tight text-gray-900">
           sinaran<span className="text-[#1A6BFF]">.</span>
         </a>
         <div className="hidden md:flex items-center gap-7">
-          <a href="#layanan" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
+          <a href="/#layanan" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
             Layanan
           </a>
-          <a href="#portfolio" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
+          <a href="/portfolio" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
             Portfolio
           </a>
           <a href="/tentang" className="nav-link text-[13px] font-medium text-gray-500 hover:text-gray-900 transition-colors">
